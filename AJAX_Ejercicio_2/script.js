@@ -20,8 +20,8 @@ function inicio(){
                         return elemento.tagName;
                     });
                     cabeceraTable.forEach(elemento => {
-                        let th = document.createElement("th");
-                        th.innerText = elemento;
+                        let td = document.createElement("th");
+                        td.innerText = elemento;
                         trCabecera.appendChild(th);
                     });
                     table.appendChild(trCabecera);
