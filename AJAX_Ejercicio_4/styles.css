@@ -1,0 +1,171 @@
+
+
+
+
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+#texto {
+    max-width: 900px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Color de texto más oscuro */
+}
+
+button {
+    display: block;
+    margin: 0 auto 20px; /* Centrar el botón y agregar margen inferior */
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el mouse */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Colapsar los bordes de la tabla */
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Borde inferior para las celdas */
+}
+
+th {
+    background-color: #007bff; /* Color de fondo para las celdas de encabezado */
+    color: white;
+    text-align: center; /* Centrar texto en th */
+}
+
+tr:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el mouse sobre las filas */
+}
+/* Estilos para hacer la tabla responsive */
+@media screen and (max-width: 600px) {
+    table {
+        display: block; /* Convertir la tabla en bloque */
+        overflow-x: auto; /* Agregar scroll horizontal si es necesario */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4; !* Color de fondo suave *!
+}
+
+#texto {
+    max-width: 900px; !* Ancho máximo del contenedor *!
+    margin: 0 auto; !* Centrar el contenedor *!
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); !* Sombra suave *!
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; !* Color de texto más oscuro *!
+}
+
+button {
+    display: block;
+    margin: 0 auto 20px; !* Centrar el botón y agregar margen inferior *!
+    padding: 10px 20px;
+    background-color: #007bff; !* Color de fondo azul *!
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; !* Transición suave del color de fondo *!
+}
+
+button:hover {
+    background-color: #0056b3; !* Color de fondo más oscuro al pasar el mouse *!
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; !* Colapsar los bordes de la tabla *!
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; !* Borde inferior para las celdas *!
+}
+
+th {
+    background-color: #007bff; !* Color de fondo para las celdas de encabezado *!
+    color: white;
+    text-align: center; !* Centrar texto en th *!
+}
+
+tr:hover {
+    background-color: #f0f0f0; !* Color de fondo al pasar el mouse sobre las filas *!
+}
+!* Estilos para hacer la tabla responsive *!
+@media screen and (max-width: 600px) {
+    table {
+        display: block; !* Convertir la tabla en bloque *!
+        overflow-x: auto; !* Agregar scroll horizontal si es necesario *!
+    }
+}*/
