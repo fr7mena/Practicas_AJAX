@@ -1,0 +1,8 @@
+{
+  "cliente_id": 1,
+  "producto_id": 5,
+  "fecha_compra": "2024-02-13",
+  "cantidad": 3,
+  "tipo": "compra",
+  "descripcion": "Compra realizada desde la tienda online"
+}
